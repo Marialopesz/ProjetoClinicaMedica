@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto Clinica Médica</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Gestão de Consultas Médicas</h1>
+      <label for="selectPaciente">Selecione o Paciente: </label>
+      <select id="selectPaciente">
+        <option value="">---Selecione um Paciente---</option>
+      </select>
+      <label for="selectMedico">Selecione o Médico: </label>
+      <select id="selectMedico"></select>
+
+      <label for="inputData">Escolha a data: </label>
+      <input type="date" id="inputData" />
+      <button type="button" id="btnAgendar">Agendar Consulta</button>
+
+      <h2>Consultas Agendadas</h2>
+      <ul id="listaConsultas"></ul>
+    </div>
+
+    <script type="module" src="./js/main.js"></script>
+  </body>
+</html>
